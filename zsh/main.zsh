@@ -21,7 +21,6 @@ load_plugins
 
 # init completion system
 source ~/.zsh.d/completions.zsh
-source ~/.zsh.d/fzf.zsh
 
 # colors for GNU ls (from coreutils)
 eval $(dircolors ~/.lscolors)
