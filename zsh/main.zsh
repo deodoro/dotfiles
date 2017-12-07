@@ -26,3 +26,7 @@ source ~/.zsh.d/completions.zsh
 eval $(dircolors ~/.lscolors)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+#source ~/.zsh.d/jump.zsh
+#source ~/.zsh.d/fzf.zsh
+export FZF_DEFAULT_OPTS='--height 40% --reverse --border'
