@@ -5,4 +5,5 @@ source ~/.vim/plugins.vim
 source ~/.vim/keybinds.vim
 source ~/.vim/font.vim
 source ~/.vim/cursorshape.vim
+source ~/.vim/mine.vim
 
