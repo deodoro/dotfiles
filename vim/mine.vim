@@ -49,10 +49,10 @@ set foldlevel=99
 set background=dark
 colorscheme gruvbox
 
-map <C-n> :NERDTreeToggle<CR>
+map <C-S-I> :NERDTreeToggle<CR>
 set rtp+=/usr/local/opt/fzf
 
 set hidden
-nnoremap <C-P> :bnext<CR>
-nnoremap <C-O> :bprev<CR>
+nnoremap <C-S-P> :bnext<CR>
+nnoremap <C-S-O> :bprev<CR>
 nnoremap <C-W>w :bd<CR>
