@@ -25,8 +25,6 @@ source ~/.zsh.d/completions.zsh
 # colors for GNU ls (from coreutils)
 eval $(dircolors ~/.lscolors)
 
+bindkey -v
+set -o vi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-#source ~/.zsh.d/jump.zsh
-#source ~/.zsh.d/fzf.zsh
-export FZF_DEFAULT_OPTS='--height 40% --reverse --border'
