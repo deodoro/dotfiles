@@ -28,3 +28,4 @@ eval $(dircolors ~/.lscolors)
 bindkey -v
 set -o vi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source ~/.vim/bundle/gruvbox/gruvbox_256palette_osx.sh
