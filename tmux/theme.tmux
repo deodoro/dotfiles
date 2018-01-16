@@ -11,4 +11,5 @@ set -g status-right '%R | %a | %d.%b.%y | #[fg=red]@#H'
 setw -g window-status-current-format '[#I.#W]'
 
 # load symlinked theme specific tmux bar configuration generated via tmuxline.vim
-source ~/.tmux.d/tmuxline/simpledark.tmux
+#source ~/.tmux.d/tmuxline/simpledark.tmux
+source ~/.tmux.d/tmuxline/gruvbox.tmux
