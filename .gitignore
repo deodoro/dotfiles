@@ -1,3 +1,4 @@
 deps/
 games/
 .#recentf
+**/.DS_Store
